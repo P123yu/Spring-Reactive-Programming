@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS student (
+    id   BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    city VARCHAR(255)
+);
